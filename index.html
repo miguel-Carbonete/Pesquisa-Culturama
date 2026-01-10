@@ -3,13 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="culturama-favico.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Pesquisa Culturama</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Pesquisa Online</h1>
-    </header>
     <main>
+        <header>
+            <img src="img/logo-culturama.png" alt="Logo Culturama">
+            <h1>Pesquisa de Opinião</h1>
+        </header>
+    
         <section>
             <form action="" method="get">
 
@@ -64,7 +71,7 @@
                     <br>
                     <label for="state">Estado:</label>
                     <select id="state" name="userState" required>
-
+                        <option value="">Selecione...</option>
                         <option value="acre">Acre</option>  
                         <option value="alagoas">Alagoas</option>   
                         <option value="amapa">Amapá</option> 
@@ -135,13 +142,13 @@
                 <fieldset>
                     <!--Comentários de opinião-->
                     <legend>Opinião</legend>
-                    <label for="satisfaction">O que você achou da qualidade do nosso serviço?</label>
+                    <label for="satisfaction">O que você achou da qualidade do nosso serviço?</label><br>
                     <input type="radio" name="satisfaction" id="otimo" value="Ótimo">
-                    <label for="otimo">Ótimo</label>
+                    <label for="otimo">Ótimo</label><br>
                     <input type="radio" name="satisfaction" id="bom" value="Bom">
-                    <label for="bom">Bom</label>
+                    <label for="bom">Bom</label><br>
                     <input type="radio" name="satisfaction" id="regular" value="Regular">
-                    <label for="regular">Regular</label>
+                    <label for="regular">Regular</label><br>
                     <input type="radio" name="satisfaction" id="ruim" value="Ruim">
                     <label for="ruim">Ruim</label>
                     <br>
