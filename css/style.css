@@ -26,6 +26,7 @@ form {
     background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
+    margin-bottom: 100px;
 }
 fieldset {
     padding: 15px;
@@ -59,4 +60,27 @@ input[type = "radio"], input[type = "checkbox"] {
 input[type="color"]{
     width: 4px;
     padding: 0 5px;
+}
+input:invalid, textarea:invalid, select:invalid{
+    border-color: red;
+}
+input:valid, textarea:valid, select:valid{
+    border-color: green;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin-right: 20px;
+    border: 1px solid #cccccc;
+    background-color: #ffffff;
+    border-radius: 2.5px;
+    cursor: pointer;
+}
+button[type="submit"]:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+button[type="reset"]:hover{
+    background-color: #f44336;
+    color: white;
 }
