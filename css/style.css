@@ -84,3 +84,11 @@ button[type="reset"]:hover{
     background-color: #f44336;
     color: white;
 }
+input[type="tel"]{
+    margin-bottom: 0px;
+}
+small{
+    color: #555555;
+    margin-bottom: 10px;
+    display: inline-block;
+}
