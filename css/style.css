@@ -84,7 +84,7 @@ button[type="reset"]:hover{
     background-color: #f44336;
     color: white;
 }
-input[type="tel"]{
+input[type="tel"], input[type="file"]{
     margin-bottom: 0px;
 }
 small{
